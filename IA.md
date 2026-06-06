@@ -1,0 +1,3 @@
+
+
+# [DECLARACIÓN DE LA IA](IA.md)
