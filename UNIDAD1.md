@@ -106,3 +106,5 @@ int main(){
 * ## Dificultades:
   - El manejo inicial de la plataforma GitHub y la sintaxis Markdown representó un reto técnico para lograr una correcta visualización y organización de la carátula y los contenidos.
   - Se presentó dificultad al modelar el problema del descuento, asegurando que la jerarquía de las operaciones fuera la correcta para garantizar resultados precisos.
+* ## Reflexión crítica:
+  - El estudio de esta unidad me ha permitido entender que la programación es un proceso metódico de análisis y no solo escritura de código. Aprender a diseñar algoritmos y diagramas de flujo antes de programar es fundamental para reducir errores de lógica. Considero que dominar las estructuras secuenciales es la base crítica para desarrollar un pensamiento computacional sólido y eficiente, habilidades clave para mi formación en la carrera de Computación.
