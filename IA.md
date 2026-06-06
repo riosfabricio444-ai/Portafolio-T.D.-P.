@@ -1,3 +1,3 @@
+<div align="center">
 
-
-# [DECLARACIÓN DE LA IA](IA.md)
+# [DECLARACIÓN DEL USO DE LA IA](PORTAFOLIO.md)
