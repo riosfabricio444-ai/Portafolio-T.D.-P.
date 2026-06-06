@@ -5,4 +5,4 @@
 
  <div align="center">
 	 
-#### [Click aquí para regresar📂](SEMESTRE.md)
+#### [Clic aquí para regresar📂](SEMESTRE.md)
