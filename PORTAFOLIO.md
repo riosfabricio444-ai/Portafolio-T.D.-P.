@@ -6,4 +6,4 @@
 
 ## "Construyendo las bases de mi futuro como desarrollador. El inicio de un viaje a través de la lógica, el código y la resolución de problemas.”🌐 
 
-## ["CLIK AQUI PARA INGRESAR"](SEMESTRE.md)
+## ["CLIC AQUI PARA INGRESAR"](SEMESTRE.md)
