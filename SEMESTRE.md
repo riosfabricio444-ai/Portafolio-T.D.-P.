@@ -8,13 +8,13 @@
 
 | **UNIDAD** | **PROGRESO** | ACCESO |
 | :--- | :---| :--- |
-| **CARATULA:** | Lista | [Ingresar📂](CARATULA.md) |
-| **UNIDAD 1:** | Terminada |  [Ingresar📂](UNIDAD1.md) |
-| **UNIDAD 2:** | En curso... |  [Ingresar📂](UNIDAD2.md) |
+| **CARATULA:** | Terminada✅| [Ingresar📂](CARATULA.md) |
+| **UNIDAD 1:** | Terminada✅ |  [Ingresar📂](UNIDAD1.md) |
+| **UNIDAD 2:** | En curso...⏳ |  [Ingresar📂](UNIDAD2.md) |
 | **UNIDAD 3:** | Pendiente🔒|  [Ingresar📂](UNIDAD3.md) |
-| **CONCLUSIONES:** | Lista | [Ingresar📂](CONCLUSIONES.md)  |
-| **RECOMENDACIONES:** | Lista | [Ingresar📂](BIBLIOGRAFÍA.md) |
-| **BIBLIOGRAFÍA:** | Lista |  [Ingresar📂](IA.md) |
+| **CONCLUSIONES:** | Terminada✅ | [Ingresar📂](CONCLUSIONES.md)  |
+| **RECOMENDACIONES:** | Terminada✅ | [Ingresar📂](BIBLIOGRAFÍA.md) |
+| **BIBLIOGRAFÍA:** | Terminada✅ |  [Ingresar📂](IA.md) |
 
 
 #### REGRESAR A LA PORTADA INICIAL:
