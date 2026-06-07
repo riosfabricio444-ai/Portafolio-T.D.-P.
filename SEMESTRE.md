@@ -1,6 +1,6 @@
 <div align="center">
   
-# ESTRUCTURA DEL PORTAFOLIO:
+# ESTRUCTURA DE MI PORTAFOLIO:
 
 <div align="center">
 
