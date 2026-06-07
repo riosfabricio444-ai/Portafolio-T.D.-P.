@@ -1,27 +1,4 @@
 <div align="center">
-
-# [CARATULA](CARATULA.md)
-
-# [UNIDAD 1](UNIDAD1.md)
-
-
-# [UNIDAD 2](UNIDAD2.md)
-
-
-# [UNIDAD 3](UNIDAD3.md)
-
-
-# [CONCLUSIONES](CONCLUSIONES.md)
-
-# [BIBLIOGRAFÍA](BIBLIOGRAFÍA.md)
-
-# [DECLARACIÓN DEL USO DE LA IA](IA.md)
-
-
-#### REGRESAR A LA PORTADA INICIAL:
-[CLIC AQUÍ](PORTAFOLIO.md)
-
-<div align="center">
   
 # ESTRUCTURA DEL PORTAFOLIO:
 
@@ -39,3 +16,6 @@
 | **RECOMENDACIONES:** | Lista | [Ingresar📂](BIBLIOGRAFÍA.md) |
 | **BIBLIOGRAFÍA:** | Lista |  [Ingresar📂](IA.md) |
 
+
+#### REGRESAR A LA PORTADA INICIAL:
+[CLIC AQUÍ](PORTAFOLIO.md)
