@@ -6,7 +6,7 @@
 
 <br>
 
-| **UNIDAD** | **PROGRESO** | ACCESO |
+| **SECCIÓN** | **PROGRESO** | ACCESO |
 | :--- | :---| :--- |
 | **CARATULA:** | Terminada✅| [Ingresar📂](CARATULA.md) |
 | **UNIDAD 1:** | Terminada✅ |  [Ingresar📂](UNIDAD1.md) |
