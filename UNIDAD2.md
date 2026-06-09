@@ -93,6 +93,65 @@ El programa debe calcular y mostrar cuánto paga cada vehículo. Al finalizar el
   
 * ## Diseño del algoritmo (diagrama de flujo):
 * ## Codificación (código fuente):
+
+```
+#include <stdio.h>
+
+int main (){
+
+    int N, i, a, b;
+    float Pago, Descuento, Total_a_Pagar, Recaudado = 0, Super = 0;
+
+    printf("Ingrese el numero total de vehiculos que ingresaron en el dia:");
+    scanf("%i", &N);
+
+
+    for(i=1; i<=N; i++){
+        printf("vehiculo %i:\n",i);
+
+        do{
+            printf("Tipo de combustible: 1 = Extra o 2 = Super:");
+            scanf("%i", &a);
+        }while(a < 1 || a > 2);
+
+        do{
+            printf("Cantidad de galones a comprar:");
+            scanf("%i", &b);
+        }while(b<1);
+
+        if(a == 1){
+            Pago = b * 2.50;
+            printf("El precio total de galones extras a pagar es:%.2f\n", Pago);
+        }else{
+            Pago = b *  4;
+            printf("El precio total de galones Super a pagar es:%.2f\n", Pago);
+        }
+
+        if(b>15){
+            Descuento = Pago * 0.10;
+        }else{
+            Descuento = 0;
+        }
+
+
+        Total_a_Pagar = Pago - Descuento;
+        Recaudado = Recaudado + Total_a_Pagar;
+
+        printf("Descuento aplicado: %.2f\n",Descuento);
+        printf("Total a pagar por vehiculo: %.2f\n", Total_a_Pagar);
+
+
+        if(a == 2){
+            Super = Super + b;
+        }
+    }
+
+    printf("El total de dinero recaudado es : %.2f\n", Recaudado);
+    printf("Cantidad de galones Super vendidos en el dia es: %2.f\n", Super);
+
+    return 0;
+}
+```
 * ## Validación (prueba de escritorio):
 
 # 4. PRINCIPALES DIFICULTADES Y REFLEXIÓN CRÍTICA EN LA APLICACIÓN DE LOS CONTENIDOS
