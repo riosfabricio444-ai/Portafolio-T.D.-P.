@@ -10,7 +10,7 @@
 
 **Diagrama de flujo:**
 
-<img width="298" height="350" alt="image" src="https://github.com/user-attachments/assets/1db35e0d-a511-479a-b79d-ae3549e494f0" />
+<img width="593" height="365" alt="image" src="https://github.com/user-attachments/assets/5eed1619-0cda-43f3-8e99-568fc50d3a8a" />
 
 
 **Pseudocodigo:**
@@ -20,7 +20,7 @@
 
 **Diagrama de flujo:**
 
-<img width="314" height="345" alt="image" src="https://github.com/user-attachments/assets/aaee32b3-ffa0-4d89-9f1d-ec0d8fb6b46b" />
+<img width="642" height="376" alt="image" src="https://github.com/user-attachments/assets/a835d2a5-3294-4a56-b017-795b51f21020" />
 
 
 **Pseudocodigo:**
@@ -30,7 +30,8 @@
 
 **Diagrama de flujo:**
 
-<img width="351" height="318" alt="image" src="https://github.com/user-attachments/assets/0f3043e7-c03a-45fd-b67f-119d85a70f2b" />
+<img width="1143" height="530" alt="image" src="https://github.com/user-attachments/assets/64396f81-098c-4e58-8d41-6a730fcb5cd9" />
+
 
 
 **Pseudocodigo:**
