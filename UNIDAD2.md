@@ -8,11 +8,32 @@
 * ## Condicional Simple (if):
 ​Es una estructura de decisión de una sola vía. Se utiliza para ejecutar un bloque de código únicamente si se cumple un requisito específico. Si la condición no se cumple, el programa no hace nada y continúa con su curso normal sin ejecutar ninguna acción alternativa.
 
+**Diagrama de flujo:**
+
+<img width="298" height="350" alt="image" src="https://github.com/user-attachments/assets/1db35e0d-a511-479a-b79d-ae3549e494f0" />
+
+
+**Pseudocodigo:**
+
 * ## ​Condicional Doble (if - else):
 ​Es una estructura de exclusión mutua que divide el flujo del programa en dos caminos posibles y obligatorios. Si la condición es verdadera, se ejecuta el primer bloque de código; si es falsa, se ejecuta automáticamente el bloque alternativo. Garantiza que se hará una acción u otra, pero nunca ambas a la vez.
 
+**Diagrama de flujo:**
+
+<img width="314" height="345" alt="image" src="https://github.com/user-attachments/assets/aaee32b3-ffa0-4d89-9f1d-ec0d8fb6b46b" />
+
+
+**Pseudocodigo:**
+
 * ## Condicional Múltiple (switch):
 ​Es una estructura de selección de caminos múltiples. Evalúa el valor de una sola variable y lo compara directamente con una lista de opciones fijas llamadas casos (case). Al encontrar la opción idéntica, ejecuta el bloque correspondiente. Se usa para evitar acumular demasiados if seguidos cuando se crean menús.
+
+**Diagrama de flujo:**
+
+<img width="351" height="318" alt="image" src="https://github.com/user-attachments/assets/0f3043e7-c03a-45fd-b67f-119d85a70f2b" />
+
+
+**Pseudocodigo:**
 
 # 2. ESTRUCTURAS REPETITIVAS
 
