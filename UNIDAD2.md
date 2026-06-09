@@ -92,7 +92,7 @@ El programa debe calcular y mostrar cuánto paga cada vehículo. Al finalizar el
 * ## Análisis del problema:
   
 * ## Diseño del algoritmo (diagrama de flujo):
-* ## Codificación (código fuente):
+* ## Codificación (código C):
 
 ```
 #include <stdio.h>
