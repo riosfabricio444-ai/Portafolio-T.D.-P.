@@ -43,7 +43,7 @@
 
 **Diagrama de flujo:**
 
-<img width="537" height="612" alt="image" src="https://github.com/user-attachments/assets/ca32e3d0-192e-42a4-9094-6cf278c38b4c" />
+<img width="506" height="398" alt="image" src="https://github.com/user-attachments/assets/1f05f702-3216-44fb-84b0-d6b2ccea616f" />
 
 
 **Pseudocodigo:**
@@ -53,7 +53,7 @@ Es un ciclo que realiza la evaluación de la condición al final (filtro de sali
 
 **Diagrama de flujo:**
 
-<img width="699" height="788" alt="image" src="https://github.com/user-attachments/assets/062a798a-f77b-4a09-b95e-347ad9690737" />
+<img width="441" height="387" alt="image" src="https://github.com/user-attachments/assets/f4ad02b0-1211-4ae4-94a9-3a34211ee6a6" />
 
 
 **Pseudocodigo:**
@@ -63,7 +63,7 @@ Es una estructura repetitiva determinada. Se utiliza exclusivamente cuando el pr
 
 **Diagrama de flujo:**
 
-<img width="691" height="816" alt="image" src="https://github.com/user-attachments/assets/3d1c0621-1f4f-4192-9804-df878d338024" />
+<img width="379" height="267" alt="image" src="https://github.com/user-attachments/assets/cd7e796f-a25e-46be-893e-1e16b5cff3dd" />
 
 
 **Pseudocodigo:**
