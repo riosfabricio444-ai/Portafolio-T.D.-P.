@@ -40,11 +40,75 @@
 * ## Estructura (while):
 ​Es un ciclo cuya duración es indeterminada porque depende de factores externos. Su característica principal es que evalúa la condición antes de entrar al bucle (filtro de entrada). Si la condición es falsa desde el inicio, el bloque de código interno no se ejecuta ninguna vez.
 
+**Diagrama de flujo:**
+
+<img width="537" height="612" alt="image" src="https://github.com/user-attachments/assets/ca32e3d0-192e-42a4-9094-6cf278c38b4c" />
+
+
+**Pseudocodigo:**
+
 * ## Estructura (do - while):
 Es un ciclo que realiza la evaluación de la condición al final (filtro de salida). Esto garantiza que el bloque de código se ejecutará al menos una vez, sin importar si la condición es verdadera o falsa al comenzar. Se utiliza mucho para obligar al usuario a ingresar datos válidos.
 
+**Diagrama de flujo:**
+
+<img width="699" height="788" alt="image" src="https://github.com/user-attachments/assets/062a798a-f77b-4a09-b95e-347ad9690737" />
+
+
+**Pseudocodigo:**
+
 * ## Estructura (for): 
 Es una estructura repetitiva determinada. Se utiliza exclusivamente cuando el programador conoce con total exactitud cuántas vueltas va a dar el ciclo antes de que este comience. Utiliza una variable contadora interna que controla de forma automática el inicio, el límite y el incremento en cada vuelta.
+
+**Diagrama de flujo:**
+
+<img width="691" height="816" alt="image" src="https://github.com/user-attachments/assets/3d1c0621-1f4f-4192-9804-df878d338024" />
+
+
+**Pseudocodigo:**
+
+
+# 3. EJERCICIO CON ESTRUCTURA CONDICIONAL Y REPETITIVA
+
+* ## Planteamiento de problema:
+
+Una gasolinera desea automatizar el control de sus ventas diarias. El operario de la estación debe registrar las cargas de N cantidad de vehículos que visitan la estación en un turno.
+
+Para cada vehículo, se debe ingresar:
+
+- El tipo de combustible que va a tanquear (usando un número: 1 para Extra, 2 para Súper).
+- La cantidad de galones que desea comprar.
+
+Los precios por galón son los siguientes:
+
+- Gasolina Extra (Tipo 1): $2.50 por galón.
+- Gasolina Súper (Tipo 2): $4.00 por galón.
+- 
+Además, la gasolinera tiene una promoción: si el cliente compra más de 15 galones (de cualquier combustible), se le otorga un descuento del 10% sobre el valor total de su compra; si compra 15 galones o menos, paga el valor total neto.
+
+El programa debe calcular y mostrar cuánto paga cada vehículo. Al finalizar el turno (cuando se hayan procesado los N vehículos), el sistema debe mostrar el total de dinero recaudado por la gasolinera y la cantidad total de galones de gasolina Súper que se vendieron en el día.
+
+* ## Análisis del problema:
+  
+* ## Diseño del algoritmo (diagrama de flujo):
+* ## Codificación (código fuente):
+* ## Validación (prueba de escritorio):
+
+# 4. PRINCIPALES DIFICULTADES Y REFLEXIÓN CRÍTICA EN LA APLICACIÓN DE LOS CONTENIDOS
+
+### Principales Dificultades:
+
+​**Errores de sintaxis en C:** Al principio me costó adaptarme a las reglas estrictas del lenguaje, como olvidar el punto y coma (;) al final de las líneas, no cerrar correctamente las llaves ({}) o confundir los formatos en el scanf (usar %d en vez de %f).
+
+​**Confundir = con ==:** Me pasaba mucho que ponía un solo signo igual dentro del if (ej. if(tipo = 1)). Tardé en asimilar que para comparar se usa obligatoriamente el doble igual (==), y que un solo igual altera el valor de la variable.
+
+​**Control de acumuladores y bucles:** A veces olvidaba inicializar los acumuladores en cero (total = 0.0) antes de empezar el ciclo, lo que hacía que el programa arrastrara datos basura de la memoria. También llegué a generar bucles infinitos por no actualizar bien los contadores.
+
+### Reflexión Crítica:
+
+​Esta unidad me enseñó que programar no es memorizar código, sino desarrollar lógica para resolver problemas. Antes de esto, mis programas eran planos y lineales; ahora entiendo cómo darle autonomía al software para que tome decisiones y repita tareas de forma eficiente.
+
+​Aprender a elegir el ciclo correcto (como el for cuando conozco el límite o el while cuando es indeterminado) me ayudó a entender cómo optimizar los recursos de la computadora y a ser mucho más ordenado al estructurar un algoritmo.
 
  <div align="center">
 	 
