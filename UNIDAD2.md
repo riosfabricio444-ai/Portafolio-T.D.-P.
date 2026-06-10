@@ -90,7 +90,12 @@ Además, la gasolinera tiene una promoción: si el cliente compra más de 15 gal
 El programa debe calcular y mostrar cuánto paga cada vehículo. Al finalizar el turno (cuando se hayan procesado los N vehículos), el sistema debe mostrar el total de dinero recaudado por la gasolinera y la cantidad total de galones de gasolina Súper que se vendieron en el día.
 
 * ## Análisis del problema:
-  
+
+| **DATOS DE ENTRADA** | **PROCESO** | SALIDA |
+| :--- | :---| :--- |
+|  Elegir el tipo de combustible,1=Extra o 2 = Super, y tambien la cantidad de galones que va a comprar.| Calcular el valor a pagar del combustible, que se lo hace multiplicando rl numero de galones por el precio dependiendo del tipo de combustible que eligió|Mostar el total a pagar de cada vehículo  |
+|  | | |
+
 * ## Diseño del algoritmo (diagrama de flujo):
 
 
