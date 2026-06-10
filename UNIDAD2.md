@@ -146,10 +146,8 @@ int main (){
 
         if(a == 1){
             Pago = b * 2.50;
-            printf("El precio total de galones extras a pagar es:%.2f\n", Pago);
         }else{
             Pago = b *  4;
-            printf("El precio total de galones Super a pagar es:%.2f\n", Pago);
         }
 
         if(b>15){
@@ -171,6 +169,7 @@ int main (){
         }
     }
 
+    printf("--------------------------------------\n");
     printf("El total de dinero recaudado es : %.2f\n", Recaudado);
     printf("Cantidad de galones Super vendidos en el dia es: %2.f\n", Super);
 
@@ -178,6 +177,13 @@ int main (){
 }
 ```
 * ## Validación (prueba de escritorio):
+
+**Prueba de escritorio:**
+
+**Prueba en el terminal:**
+
+<img width="860" height="631" alt="image" src="https://github.com/user-attachments/assets/52772f62-88c7-41de-8af5-285759ad911b" />
+
 
 # 4. PRINCIPALES DIFICULTADES Y REFLEXIÓN CRÍTICA EN LA APLICACIÓN DE LOS CONTENIDOS
 
