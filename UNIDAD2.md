@@ -113,8 +113,7 @@ El programa debe calcular y mostrar cuánto paga cada vehículo. Al finalizar el
 
 * ## Diseño del algoritmo (diagrama de flujo):
 
-<img width="781" height="1075" alt="image" src="https://github.com/user-attachments/assets/22dcc9e6-aea4-4d4a-91cd-13ba3586edbf" />
-
+<img width="871" height="1349" alt="image" src="https://github.com/user-attachments/assets/9bb552ae-83fd-49ad-91ea-c932a699cfe7" />
 
 
 * ## Codificación (código C):
