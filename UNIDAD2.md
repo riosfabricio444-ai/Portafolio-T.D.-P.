@@ -15,6 +15,9 @@
 
 **Pseudocodigo:**
 
+<img width="529" height="283" alt="image" src="https://github.com/user-attachments/assets/a924aed1-2681-4548-b242-378cb85e85b1" />
+
+
 * ## ​Condicional Doble (if - else):
 ​Es una estructura de exclusión mutua que divide el flujo del programa en dos caminos posibles y obligatorios. Si la condición es verdadera, se ejecuta el primer bloque de código; si es falsa, se ejecuta automáticamente el bloque alternativo. Garantiza que se hará una acción u otra, pero nunca ambas a la vez.
 
@@ -25,6 +28,9 @@
 
 **Pseudocodigo:**
 
+<img width="275" height="413" alt="image" src="https://github.com/user-attachments/assets/4f23706e-ca66-4c20-8628-d5a9195b3083" />
+
+
 * ## Condicional Múltiple (switch):
 ​Es una estructura de selección de caminos múltiples. Evalúa el valor de una sola variable y lo compara directamente con una lista de opciones fijas llamadas casos (case). Al encontrar la opción idéntica, ejecuta el bloque correspondiente. Se usa para evitar acumular demasiados if seguidos cuando se crean menús.
 
@@ -33,8 +39,10 @@
 <img width="1143" height="530" alt="image" src="https://github.com/user-attachments/assets/64396f81-098c-4e58-8d41-6a730fcb5cd9" />
 
 
-
 **Pseudocodigo:**
+
+<img width="220" height="288" alt="image" src="https://github.com/user-attachments/assets/0f03135e-7882-44f9-a1f3-88226c0e47a7" />
+
 
 # 2. ESTRUCTURAS REPETITIVAS
 
@@ -48,6 +56,9 @@
 
 **Pseudocodigo:**
 
+<img width="328" height="129" alt="image" src="https://github.com/user-attachments/assets/efd12ca8-eafa-4523-9d6a-f04bb319f70a" />
+
+
 * ## Estructura (do - while):
 Es un ciclo que realiza la evaluación de la condición al final (filtro de salida). Esto garantiza que el bloque de código se ejecutará al menos una vez, sin importar si la condición es verdadera o falsa al comenzar. Se utiliza mucho para obligar al usuario a ingresar datos válidos.
 
@@ -58,6 +69,9 @@ Es un ciclo que realiza la evaluación de la condición al final (filtro de sali
 
 **Pseudocodigo:**
 
+<img width="685" height="348" alt="image" src="https://github.com/user-attachments/assets/adfec02e-7bb7-478c-a88d-4e65dca58ec7" />
+
+
 * ## Estructura (for): 
 Es una estructura repetitiva determinada. Se utiliza exclusivamente cuando el programador conoce con total exactitud cuántas vueltas va a dar el ciclo antes de que este comience. Utiliza una variable contadora interna que controla de forma automática el inicio, el límite y el incremento en cada vuelta.
 
@@ -67,6 +81,8 @@ Es una estructura repetitiva determinada. Se utiliza exclusivamente cuando el pr
 
 
 **Pseudocodigo:**
+
+<img width="546" height="257" alt="image" src="https://github.com/user-attachments/assets/fcd5487f-078c-4093-8688-bb2ecadedae4" />
 
 
 # 3. EJERCICIO CON ESTRUCTURA CONDICIONAL Y REPETITIVA
