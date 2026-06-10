@@ -17,12 +17,10 @@
 | **USO DE LA IA:** | Terminada✅ |  [Ingresar📂](IA.md) |
 
 
-#### REGRESAR A LA PORTADA INICIAL:
-[CLIC AQUÍ](PORTAFOLIO.md)
 
 
-<p align="center">
-  <a href="https://github.com/riosfabricio444-ai/Portafolio-T.D.-P./blob/main/PORTAFOLIO.md" style="text-decoration: none;">
+  <p align="center">
+   <a href="https://github.com/riosfabricio444-ai/Portafolio-T.D.-P./blob/main/PORTAFOLIO.md" style="text-decoration: none;">
     <kbd style="
       background-color: #0056b3;
       color: #ffffff;
