@@ -10,7 +10,7 @@
 
 **Diagrama de flujo:**
 
-<img width="593" height="365" alt="image" src="https://github.com/user-attachments/assets/5eed1619-0cda-43f3-8e99-568fc50d3a8a" />
+<img width="841" height="481" alt="image" src="https://github.com/user-attachments/assets/7489770a-5255-4dd1-bb1d-910a571c9cab" />
 
 
 **Pseudocodigo:**
@@ -23,7 +23,7 @@
 
 **Diagrama de flujo:**
 
-<img width="642" height="376" alt="image" src="https://github.com/user-attachments/assets/a835d2a5-3294-4a56-b017-795b51f21020" />
+<img width="833" height="519" alt="image" src="https://github.com/user-attachments/assets/ff00ddb9-34b3-408d-8ebc-1fc423397343" />
 
 
 **Pseudocodigo:**
@@ -36,7 +36,7 @@
 
 **Diagrama de flujo:**
 
-<img width="1143" height="530" alt="image" src="https://github.com/user-attachments/assets/64396f81-098c-4e58-8d41-6a730fcb5cd9" />
+<img width="836" height="445" alt="image" src="https://github.com/user-attachments/assets/136d171b-f68f-4c9e-ab4b-9225d135544b" />
 
 
 **Pseudocodigo:**
@@ -51,12 +51,12 @@
 
 **Diagrama de flujo:**
 
-<img width="506" height="398" alt="image" src="https://github.com/user-attachments/assets/1f05f702-3216-44fb-84b0-d6b2ccea616f" />
+<img width="800" height="576" alt="image" src="https://github.com/user-attachments/assets/450722cd-f80a-44fa-b178-fe7ad22c5a3b" />
 
 
 **Pseudocodigo:**
 
-<img width="328" height="129" alt="image" src="https://github.com/user-attachments/assets/efd12ca8-eafa-4523-9d6a-f04bb319f70a" />
+<img width="801" height="461" alt="image" src="https://github.com/user-attachments/assets/55a3f03a-8eab-4828-8d3e-5ff008199176" />
 
 
 * ## Estructura (do - while):
@@ -64,12 +64,12 @@ Es un ciclo que realiza la evaluación de la condición al final (filtro de sali
 
 **Diagrama de flujo:**
 
-<img width="441" height="387" alt="image" src="https://github.com/user-attachments/assets/f4ad02b0-1211-4ae4-94a9-3a34211ee6a6" />
+<img width="818" height="552" alt="image" src="https://github.com/user-attachments/assets/ee974e3d-d121-4505-ab1c-0fd684d8ae27" />
 
 
 **Pseudocodigo:**
 
-<img width="685" height="348" alt="image" src="https://github.com/user-attachments/assets/adfec02e-7bb7-478c-a88d-4e65dca58ec7" />
+<img width="807" height="428" alt="image" src="https://github.com/user-attachments/assets/23967ae6-5af7-47e2-8a67-e2089110fb8c" />
 
 
 * ## Estructura (for): 
@@ -77,12 +77,12 @@ Es una estructura repetitiva determinada. Se utiliza exclusivamente cuando el pr
 
 **Diagrama de flujo:**
 
-<img width="379" height="267" alt="image" src="https://github.com/user-attachments/assets/cd7e796f-a25e-46be-893e-1e16b5cff3dd" />
+<img width="808" height="478" alt="image" src="https://github.com/user-attachments/assets/92b607e2-7098-4c42-a545-99a2dc6025fd" />
 
 
 **Pseudocodigo:**
 
-<img width="546" height="257" alt="image" src="https://github.com/user-attachments/assets/fcd5487f-078c-4093-8688-bb2ecadedae4" />
+<img width="798" height="464" alt="image" src="https://github.com/user-attachments/assets/2002095d-de76-4262-bf1f-38c734afa7a8" />
 
 
 # 3. EJERCICIO CON ESTRUCTURA CONDICIONAL Y REPETITIVA
@@ -114,7 +114,7 @@ El programa debe calcular y mostrar cuánto paga cada vehículo. Al finalizar el
 * ## Diseño del algoritmo (diagrama de flujo):
 
 
-<img width="610" height="804" alt="image" src="https://github.com/user-attachments/assets/854fbda8-7caa-4e07-b948-2dc0b721ba75" />
+<img width="968" height="1115" alt="image" src="https://github.com/user-attachments/assets/2b397b4d-7204-43b8-a81f-7bc482f362bc" />
 
 
 * ## Codificación (código C):
