@@ -29,3 +29,22 @@
     </kbd>
   </a>
 </p>
+
+
+<p align="center">
+  <a href="https://github.com/riosfabricio444-ai/Portafolio-T.D.-P./blob/main/SEMESTRE.md" style="text-decoration: none;">
+    <kbd style="
+      background-color: #0056b3;
+      color: #ffffff;
+      border: 2px solid #00a4ff;
+      border-radius: 8px;
+      padding: 15px 35px;
+      font-size: 16px;
+      font-weight: bold;
+      display: inline-block;
+      font-family: sans-serif;
+    ">
+      🚀 CLIC PARA ENTRAR 🚀
+    </kbd>
+  </a>
+</p>
