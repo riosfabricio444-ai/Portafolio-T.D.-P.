@@ -15,7 +15,7 @@
 
 **Pseudocodigo:**
 
-<img width="529" height="283" alt="image" src="https://github.com/user-attachments/assets/a924aed1-2681-4548-b242-378cb85e85b1" />
+<img width="837" height="469" alt="image" src="https://github.com/user-attachments/assets/0be5f1c3-f3f7-47e3-8537-6deda17306b3" />
 
 
 * ## ​Condicional Doble (if - else):
