@@ -13,8 +13,8 @@
 | **UNIDAD 2:** | En curso...⏳ |  [Ingresar📂](UNIDAD2.md) |
 | **UNIDAD 3:** | Pendiente🔒|  [Ingresar📂](UNIDAD3.md) |
 | **CONCLUSIONES:** | Terminada✅ | [Ingresar📂](CONCLUSIONES.md)  |
-| **RECOMENDACIONES:** | Terminada✅ | [Ingresar📂](BIBLIOGRAFÍA.md) |
-| **BIBLIOGRAFÍA:** | Terminada✅ |  [Ingresar📂](IA.md) |
+| **BIBLIOGRAFÍA:** | Terminada✅ | [Ingresar📂](BIBLIOGRAFÍA.md) |
+| **DECLARACIÓN DEL USO DE LA IA:** | Terminada✅ |  [Ingresar📂](IA.md) |
 
 
 #### REGRESAR A LA PORTADA INICIAL:
