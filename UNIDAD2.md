@@ -41,7 +41,7 @@
 
 **Pseudocodigo:**
 
-<img width="220" height="288" alt="image" src="https://github.com/user-attachments/assets/0f03135e-7882-44f9-a1f3-88226c0e47a7" />
+<img width="849" height="517" alt="image" src="https://github.com/user-attachments/assets/935ce272-6584-41d5-8b88-7a89f9eac303" />
 
 
 # 2. ESTRUCTURAS REPETITIVAS
