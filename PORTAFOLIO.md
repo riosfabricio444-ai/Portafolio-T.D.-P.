@@ -9,42 +9,10 @@
 ## ["CLIC AQUI PARA INGRESAR"](SEMESTRE.md)
 
 
-<p align="center">
-  <a href="https://github.com/riosfabricio444-ai/Portafolio-T.D.-P./blob/main/SEMESTRE.md" style="text-decoration: none;">
-    <kbd style="
-      background-color: #0b192c;
-      color: #00f0ff;
-      border: 2px solid #00f0ff;
-      border-radius: 10px;
-      padding: 14px 30px;
-      font-size: 16px;
-      font-weight: bold;
-      letter-spacing: 2px;
-      display: inline-block;
-      text-shadow: 0 0 5px #00f0ff;
-      font-family: 'Courier New', Courier, monospace;
-      cursor: pointer;
-    ">
-      ⚡ CLIC PARA ENTRAR ⚡
-    </kbd>
-  </a>
-</p>
 
 
 <p align="center">
-  <a href="https://github.com/riosfabricio444-ai/Portafolio-T.D.-P./blob/main/SEMESTRE.md" style="text-decoration: none;">
-    <kbd style="
-      background-color: #0056b3;
-      color: #ffffff;
-      border: 2px solid #00a4ff;
-      border-radius: 8px;
-      padding: 15px 35px;
-      font-size: 16px;
-      font-weight: bold;
-      display: inline-block;
-      font-family: sans-serif;
-    ">
-      🚀 CLIC PARA ENTRAR 🚀
-    </kbd>
+  <a href="https://github.com/riosfabricio444-ai/Portafolio-T.D.-P./blob/main/SEMESTRE.md">
+    <img src="https://img.shields.io/badge/-%E2%9A%A1%20CLIC%20PARA%20ENTRAR%20%E2%9A%A1-0056b3?style=for-the-badge" height="50" />
   </a>
 </p>
