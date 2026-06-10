@@ -93,8 +93,7 @@ El programa debe calcular y mostrar cuánto paga cada vehículo. Al finalizar el
 
 | **DATOS DE ENTRADA** | **PROCESO** | SALIDA |
 | :--- | :---| :--- |
-|  Elegir el tipo de combustible,1=Extra o 2 = Super, y tambien la cantidad de galones que va a comprar.| Calcular el valor a pagar del combustible, que se lo hace multiplicando rl numero de galones por el precio dependiendo del tipo de combustible que eligió|Mostar el total a pagar de cada vehículo  |
-|  | | |
+|Ingresar la canditad de vehículos que los visitaron. Después elegir el tipo de combustible: ingresar 1 = Extra o 2 = Súper y tambien la cantidad de galones que va a comprar, esto lo realizara para cada vehiculo que los visitó | Calcular el valor a pagar del combustible, que se lo hace multiplicando el número de galones (dependiendo del tipo de combustible que eligió) por el precio que es: Extra = 2.50 o Super = 4, además calcular todo el dinero de las ventas y el total de galones súper |Mostar el total a pagar de cada vehículo(incluido si se hace descuento), además al final del programa debe mostrarme todo el dinero recaudado de las ventas y la candidad de galones súper que se vendieron.|
 
 * ## Diseño del algoritmo (diagrama de flujo):
 
