@@ -28,7 +28,7 @@
 
 **Pseudocodigo:**
 
-<img width="275" height="413" alt="image" src="https://github.com/user-attachments/assets/4f23706e-ca66-4c20-8628-d5a9195b3083" />
+<img width="841" height="527" alt="image" src="https://github.com/user-attachments/assets/98bafed1-80eb-4e7a-858d-c6b26824845e" />
 
 
 * ## Condicional Múltiple (switch):
