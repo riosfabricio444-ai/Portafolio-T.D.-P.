@@ -6,10 +6,6 @@
 
 ## "Construyendo las bases de mi futuro como desarrollador. El inicio de un viaje a través de la lógica, el código y la resolución de problemas.”🌐 
 
-## ["CLIC AQUI PARA INGRESAR"](SEMESTRE.md)
-
-
-
 
 <p align="center">
   <a href="https://github.com/riosfabricio444-ai/Portafolio-T.D.-P./blob/main/SEMESTRE.md">
