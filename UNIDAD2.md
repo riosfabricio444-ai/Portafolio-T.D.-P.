@@ -175,9 +175,9 @@ int main (){
 
 ### Reflexión Crítica:
 
-​Esta unidad me enseñó que programar no es memorizar código, sino desarrollar lógica para resolver problemas. Antes de esto, mis programas eran planos y lineales; ahora entiendo cómo darle autonomía al software para que tome decisiones y repita tareas de forma eficiente.
+​- Esta unidad me enseñó que programar no es memorizar código, sino desarrollar lógica para resolver problemas. Antes de esto, mis programas eran planos y lineales; ahora entiendo cómo darle autonomía al software para que tome decisiones y repita tareas de forma eficiente.
 
-​Aprender a elegir el ciclo correcto (como el for cuando conozco el límite o el while cuando es indeterminado) me ayudó a entender cómo optimizar los recursos de la computadora y a ser mucho más ordenado al estructurar un algoritmo.
+​- Aprender a elegir el ciclo correcto (como el for cuando conozco el límite o el while cuando es indeterminado) me ayudó a entender cómo optimizar los recursos de la computadora y a ser mucho más ordenado al estructurar un algoritmo.
 
  <div align="center">
 	 
