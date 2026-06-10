@@ -180,6 +180,9 @@ int main (){
 
 **Prueba de escritorio:**
 
+<img width="865" height="680" alt="image" src="https://github.com/user-attachments/assets/d9ab3316-e12a-404f-8a9f-052cb24da6f4" />
+
+
 **Prueba en el terminal:**
 
 <img width="860" height="631" alt="image" src="https://github.com/user-attachments/assets/52772f62-88c7-41de-8af5-285759ad911b" />
