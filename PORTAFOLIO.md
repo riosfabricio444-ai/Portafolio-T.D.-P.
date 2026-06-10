@@ -1,6 +1,6 @@
 <div align="center">
 
-# PORTAFOLIO DIGITAL DE APRENDIZAJE - TEORIA DE LA PROGRAMACIÓN
+# PORTAFOLIO DIGITAL DE APRENDIZAJE - TEORÍA DE LA PROGRAMACIÓN
 
 <img width="896" height="357" alt="image" src="https://github.com/user-attachments/assets/72fc996a-1f57-43a9-a20c-40b501c1c756" />
 
