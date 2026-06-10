@@ -167,17 +167,17 @@ int main (){
 
 ### Principales Dificultades:
 
-​**Errores de sintaxis en C:** Al principio me costó adaptarme a las reglas estrictas del lenguaje, como olvidar el punto y coma (;) al final de las líneas, no cerrar correctamente las llaves ({}) o confundir los formatos en el scanf (usar %d en vez de %f).
+- **Errores de sintaxis en C:** Al principio me costó adaptarme a las reglas estrictas del lenguaje, como olvidar el punto y coma (;) al final de las líneas, no cerrar correctamente las llaves ({}) o confundir los formatos en el scanf (usar %d en vez de %f).
 
-​**Confundir = con ==:** Me pasaba mucho que ponía un solo signo igual dentro del if (ej. if(tipo = 1)). Tardé en asimilar que para comparar se usa obligatoriamente el doble igual (==), y que un solo igual altera el valor de la variable.
+- **Confundir = con ==:** Me pasaba mucho que ponía un solo signo igual dentro del if (ej. if(tipo = 1)). Tardé en asimilar que para comparar se usa obligatoriamente el doble igual (==), y que un solo igual altera el valor de la variable.
 
-​**Control de acumuladores y bucles:** A veces olvidaba inicializar los acumuladores en cero (total = 0.0) antes de empezar el ciclo, lo que hacía que el programa arrastrara datos basura de la memoria. También llegué a generar bucles infinitos por no actualizar bien los contadores.
+- **Control de acumuladores y bucles:** A veces olvidaba inicializar los acumuladores en cero (total = 0.0) antes de empezar el ciclo, lo que hacía que el programa arrastrara datos basura de la memoria. También llegué a generar bucles infinitos por no actualizar bien los contadores.
 
 ### Reflexión Crítica:
 
-​- Esta unidad me enseñó que programar no es memorizar código, sino desarrollar lógica para resolver problemas. Antes de esto, mis programas eran planos y lineales; ahora entiendo cómo darle autonomía al software para que tome decisiones y repita tareas de forma eficiente.
+- Esta unidad me enseñó que programar no es memorizar código, sino desarrollar lógica para resolver problemas. Antes de esto, mis programas eran planos y lineales; ahora entiendo cómo darle autonomía al software para que tome decisiones y repita tareas de forma eficiente.
 
-​- Aprender a elegir el ciclo correcto (como el for cuando conozco el límite o el while cuando es indeterminado) me ayudó a entender cómo optimizar los recursos de la computadora y a ser mucho más ordenado al estructurar un algoritmo.
+- Aprender a elegir el ciclo correcto (como el for cuando conozco el límite o el while cuando es indeterminado) me ayudó a entender cómo optimizar los recursos de la computadora y a ser mucho más ordenado al estructurar un algoritmo.
 
  <div align="center">
 	 
