@@ -14,7 +14,7 @@
 | **UNIDAD 3:** | Pendiente🔒|  [Ingresar📂](UNIDAD3.md) |
 | **CONCLUSIONES:** | Terminada✅ | [Ingresar📂](CONCLUSIONES.md)  |
 | **BIBLIOGRAFÍA:** | Terminada✅ | [Ingresar📂](BIBLIOGRAFÍA.md) |
-| **DECLARACIÓN DEL USO DE LA IA:** | Terminada✅ |  [Ingresar📂](IA.md) |
+| **USO DE LA IA:** | Terminada✅ |  [Ingresar📂](IA.md) |
 
 
 #### REGRESAR A LA PORTADA INICIAL:
