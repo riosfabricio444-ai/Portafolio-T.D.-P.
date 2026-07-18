@@ -11,8 +11,11 @@ En lugar de escribir todo el código como un bloque único, el programador desco
 ## Ventajas:
 
 **Reutilización de código** — un módulo ya hecho se puede usar varias veces sin reescribirlo.
+
 **Facilidad de mantenimiento** — si hay un error o cambio, solo se toca el módulo afectado, no todo el programa.
+
 **Mayor legibilidad** — el código organizado en módulos con nombres claros es más fácil de entender.
+
 **Depuración simplificada** — es más sencillo encontrar y corregir errores probando cada módulo por separado.
 
 ## Arreglos
