@@ -23,6 +23,16 @@ En lugar de escribir todo el código como un bloque único, el programador desco
 Un arreglo (o array) es una estructura de datos que permite almacenar varios valores del mismo tipo bajo un solo nombre de variable, guardados en posiciones de memoria contiguas (una al lado de la otra). Cada valor dentro del arreglo se llama elemento, y se accede a él mediante un índice (un número que indica su posición), que casi siempre empieza en 0.
 Piénsalo como una fila de casilleros numerados: todos los casilleros tienen el mismo nombre de "mueble" (el arreglo), pero cada uno guarda un dato distinto, y para sacar algo de un casillero específico solo necesitas decir su número (índice).
 
+## Ventajas:
+
+**Organización de datos** — permiten almacenar varios valores del mismo tipo bajo un solo nombre de variable.
+
+**Acceso rápido y directo** — se puede acceder a cualquier elemento de inmediato usando su índice.
+
+**Facilidad para recorrer datos** — se pueden recorrer fácilmente con bucles (for, while) para sumar, buscar o comparar.
+
+**Ahorro de código** — evitan crear muchas variables individuales, usando en su lugar una sola estructura para todos los datos.
+
 ## Principales dificultades y reflexión crítica en la aplicación de los contenidos.
 
 <div align="center">
