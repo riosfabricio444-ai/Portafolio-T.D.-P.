@@ -53,7 +53,7 @@ Es el tipo de arreglo más simple. Almacena los elementos en una sola fila o lis
 
 Almacena los elementos organizados en filas y columnas, formando una tabla. Se necesitan dos índices para acceder a un elemento: uno indica la fila y otro la columna. Se usa para representar datos con dos criterios de organización, como un tablero de juego o una hoja de cálculo.
 
-**Arreglo multidimensional**
+**Arreglo tridimencional (multidimensional)**
 
 Es una generalización del concepto anterior, donde el arreglo tiene tres o más dimensiones. Se puede imaginar como varias matrices apiladas (capas), y se requieren tantos índices como dimensiones tenga el arreglo. Se usa para representar datos más complejos, con varios criterios de clasificación al mismo tiempo, como capas, filas y columnas.
 
