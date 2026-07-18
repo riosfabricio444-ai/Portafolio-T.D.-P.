@@ -57,7 +57,15 @@ Almacena los elementos organizados en filas y columnas, formando una tabla. Se n
 
 Es una generalización del concepto anterior, donde el arreglo tiene tres o más dimensiones. Se puede imaginar como varias matrices apiladas (capas), y se requieren tantos índices como dimensiones tenga el arreglo. Se usa para representar datos más complejos, con varios criterios de clasificación al mismo tiempo, como capas, filas y columnas.
 
-## Principales dificultades y reflexión crítica en la aplicación de los contenidos.
+## Principales dificultades en la aplicación de los contenidos
+
+Al desarrollar este trabajo sobre modularidad y arreglos, una de las principales dificultades que encontré fue comprender con claridad la diferencia entre el paso de parámetros por valor y por referencia. Al inicio me costaba entender por qué, si ambos parecían "enviar" el mismo dato a la función, en un caso el valor original cambiaba y en el otro no. Tuve que revisar varios ejemplos y comparar la ejecución paso a paso para darme cuenta de que la clave está en si se envía una copia del dato o la dirección de memoria donde este se encuentra. Una vez que entendí esa idea, pude ver con más claridad por qué en ciertos programas es necesario usar el símbolo & cuando se quiere que una función modifique realmente la variable original.
+
+En cuanto a los arreglos, la mayor dificultad no estuvo en los arreglos unidimensionales, ya que su lógica es bastante intuitiva (una lista de datos con un solo índice), sino en los arreglos bidimensionales y, sobre todo, en los multidimensionales. Al trabajar con matrices tuve que practicar bastante el uso de bucles anidados, porque al principio me confundía el orden en que debía recorrer las filas y columnas para no dejar datos sin llenar o acceder a posiciones incorrectas. Con los arreglos de tres dimensiones la dificultad aumentó, ya que tuve que imaginar el arreglo como si fueran varias matrices apiladas (capas), lo cual no es tan sencillo de visualizar mentalmente como ocurre con un simple vector o una tabla de dos dimensiones.
+
+## Reflexión crítica 
+
+Como reflexión crítica, considero que estos dos temas —modularidad y arreglos— están estrechamente relacionados y se complementan constantemente en la programación real, ya que es muy común que los módulos reciban arreglos como parámetros. En esos casos, entender bien la diferencia entre paso por valor y por referencia se vuelve fundamental, pues enviar un arreglo completo por valor resultaría poco eficiente en términos de memoria. La experiencia de programar estos ejercicios en clase me permitió confirmar que la teoría por sí sola no es suficiente: es necesario escribir el código, ejecutarlo, cometer errores y corregirlos para realmente interiorizar cómo se comportan los parámetros y cómo se recorren los distintos tipos de arreglos. En definitiva, considero que la práctica constante fue la que marcó la diferencia entre simplemente memorizar los conceptos y llegar a comprenderlos de buena forma.
 
 <div align="center">
   
