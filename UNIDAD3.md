@@ -1,72 +1,157 @@
 <div align="center">
 
-# [UNIDAD 3](SEMESTRE.md)
+# 📚 [UNIDAD 3](SEMESTRE.md)
+
+### 💻 Modularidad y Arreglos
+
+*"Organizar el código es el primer paso para construir programas claros, eficientes y fáciles de mantener."*
+
 </div>
 
-## Modularidad
+---
 
-La modularidad es un principio de la programación estructurada que consiste en dividir un programa grande y complejo en partes más pequeñas, independientes y manejables, llamadas módulos (funciones o procedimientos).
-En lugar de escribir todo el código como un bloque único, el programador descompone el problema general en subproblemas más simples —la técnica de "divide y vencerás"— y resuelve cada uno con un módulo separado. Luego, esos módulos se combinan y se comunican entre sí (normalmente mediante el envío de parámetros y valores de retorno) para lograr el funcionamiento completo del programa.
+# 🧩 Modularidad
 
-## Ventajas:
+La **modularidad** es un principio de la programación estructurada que consiste en dividir un programa grande y complejo en partes más pequeñas e independientes, llamadas **módulos** (funciones o procedimientos).
 
-**Reutilización de código** — un módulo ya hecho se puede usar varias veces sin reescribirlo.
+En lugar de escribir todo el programa en un solo bloque, el problema se divide en tareas más simples (**"divide y vencerás"**). Cada módulo resuelve una parte específica y, posteriormente, todos trabajan juntos mediante el intercambio de **parámetros** y **valores de retorno**.
 
-**Facilidad de mantenimiento** — si hay un error o cambio, solo se toca el módulo afectado, no todo el programa.
+> 💡 **Objetivo:** hacer programas más organizados, reutilizables y fáciles de comprender.
 
-**Mayor legibilidad** — el código organizado en módulos con nombres claros es más fácil de entender.
+---
 
-**Depuración simplificada** — es más sencillo encontrar y corregir errores probando cada módulo por separado.
+# ✅ Ventajas de la modularidad
 
-## Tipos de pases de parametros:
+| 🚀 Ventaja | 📖 Descripción |
+|------------|----------------|
+| ♻️ **Reutilización de código** | Un mismo módulo puede utilizarse varias veces sin volver a escribirlo. |
+| 🔧 **Mantenimiento sencillo** | Si existe un error, solo se modifica el módulo correspondiente. |
+| 📖 **Mayor legibilidad** | El código organizado es más fácil de leer y comprender. |
+| 🐞 **Depuración simplificada** | Permite encontrar errores probando cada módulo por separado. |
 
-**Paso por valor**
+---
 
-Es la forma de enviar parámetros a un módulo (función) en la que se envía una copia del valor de la variable, no la variable original. Dentro de la función se trabaja con esa copia, que ocupa una dirección de memoria distinta a la de la variable original. Por eso, cualquier cambio que se haga dentro de la función NO afecta a la variable que se envió desde el programa principal. Es la forma de paso de parámetros que se usa por defecto en la mayoría de los lenguajes (C, C++, Java, etc.) cuando no se indica lo contrario, y se utiliza cuando la función solo necesita leer o procesar un dato sin la intención de modificarlo.
+# 🔄 Tipos de paso de parámetros
 
-**Paso por referencia**
+## 📥 Paso por valor
 
-Es la forma de enviar parámetros en la que, en lugar de una copia, se envía la dirección de memoria (referencia) de la variable original. Esto hace que la función trabaje directamente sobre la misma variable del programa principal. Por eso, cualquier cambio que se haga dentro de la función SÍ afecta a la variable original. En C++ se implementa colocando el símbolo & antes del nombre del parámetro. Se utiliza cuando la función necesita modificar el dato original o devolver más de un resultado.
+Consiste en enviar **una copia** del valor de la variable a la función.
 
-## Arreglos
+- ✅ La función trabaja con una copia.
+- ✅ La variable original **no cambia**.
+- ✅ Se utiliza cuando únicamente se necesita leer o procesar un dato.
 
-Un arreglo (o array) es una estructura de datos que permite almacenar varios valores del mismo tipo bajo un solo nombre de variable, guardados en posiciones de memoria contiguas (una al lado de la otra). Cada valor dentro del arreglo se llama elemento, y se accede a él mediante un índice (un número que indica su posición), que casi siempre empieza en 0.
-Piénsalo como una fila de casilleros numerados: todos los casilleros tienen el mismo nombre de "mueble" (el arreglo), pero cada uno guarda un dato distinto, y para sacar algo de un casillero específico solo necesitas decir su número (índice).
+> 📌 **Resultado:** cualquier modificación realizada dentro de la función **NO afecta** al dato original.
 
-## Ventajas:
+---
 
-**Organización de datos** — permiten almacenar varios valores del mismo tipo bajo un solo nombre de variable.
+## 📤 Paso por referencia
 
-**Acceso rápido y directo** — se puede acceder a cualquier elemento de inmediato usando su índice.
+Consiste en enviar la **dirección de memoria** de la variable.
 
-**Facilidad para recorrer datos** — se pueden recorrer fácilmente con bucles (for, while) para sumar, buscar o comparar.
+- ✅ La función trabaja directamente sobre la variable original.
+- ✅ Los cambios realizados sí se reflejan fuera de la función.
+- ✅ En C++ se representa mediante el símbolo **&**.
 
-**Ahorro de código** — evitan crear muchas variables individuales, usando en su lugar una sola estructura para todos los datos.
+> 📌 **Resultado:** cualquier modificación realizada dentro de la función **SÍ afecta** a la variable original.
 
-## Tipos de arreglos:
+---
 
-**Arreglo unidimensional (vector)**
+# 📊 Arreglos
 
-Es el tipo de arreglo más simple. Almacena los elementos en una sola fila o lista, y se necesita un solo índice para acceder a cada elemento. Se puede imaginar como una lista de casilleros numerados uno tras otro. Se usa para guardar datos simples relacionados, como una lista de nombres o de calificaciones.
+Un **arreglo (array)** es una estructura de datos que permite almacenar múltiples valores del mismo tipo bajo un solo nombre de variable.
 
-**Arreglo bidimensional (matriz)**
+Cada elemento posee un **índice**, que generalmente comienza en **0**, permitiendo acceder rápidamente a cualquier posición.
 
-Almacena los elementos organizados en filas y columnas, formando una tabla. Se necesitan dos índices para acceder a un elemento: uno indica la fila y otro la columna. Se usa para representar datos con dos criterios de organización, como un tablero de juego o una hoja de cálculo.
+> 🗂️ **Ejemplo:** un arreglo puede imaginarse como una fila de casilleros numerados donde cada casillero almacena un dato diferente.
 
-**Arreglo tridimencional (multidimensional)**
+---
 
-Es una generalización del concepto anterior, donde el arreglo tiene tres o más dimensiones. Se puede imaginar como varias matrices apiladas (capas), y se requieren tantos índices como dimensiones tenga el arreglo. Se usa para representar datos más complejos, con varios criterios de clasificación al mismo tiempo, como capas, filas y columnas.
+# 🌟 Ventajas de los arreglos
 
-## Principales dificultades en la aplicación de los contenidos
+| 🚀 Ventaja | 📖 Descripción |
+|------------|----------------|
+| 📦 Organización | Agrupan varios datos bajo una sola variable. |
+| ⚡ Acceso rápido | Permiten acceder inmediatamente mediante índices. |
+| 🔄 Recorrido sencillo | Se procesan fácilmente con ciclos como `for` o `while`. |
+| 💻 Menos código | Evitan declarar muchas variables individuales. |
 
-Al desarrollar este trabajo sobre modularidad y arreglos, una de las principales dificultades que encontré fue comprender con claridad la diferencia entre el paso de parámetros por valor y por referencia. Al inicio me costaba entender por qué, si ambos parecían "enviar" el mismo dato a la función, en un caso el valor original cambiaba y en el otro no. Tuve que revisar varios ejemplos y comparar la ejecución paso a paso para darme cuenta de que la clave está en si se envía una copia del dato o la dirección de memoria donde este se encuentra. Una vez que entendí esa idea, pude ver con más claridad por qué en ciertos programas es necesario usar el símbolo & cuando se quiere que una función modifique realmente la variable original.
+---
 
-En cuanto a los arreglos, la mayor dificultad no estuvo en los arreglos unidimensionales, ya que su lógica es bastante intuitiva (una lista de datos con un solo índice), sino en los arreglos bidimensionales y, sobre todo, en los multidimensionales. Al trabajar con matrices tuve que practicar bastante el uso de bucles anidados, porque al principio me confundía el orden en que debía recorrer las filas y columnas para no dejar datos sin llenar o acceder a posiciones incorrectas. Con los arreglos de tres dimensiones la dificultad aumentó, ya que tuve que imaginar el arreglo como si fueran varias matrices apiladas (capas), lo cual no es tan sencillo de visualizar mentalmente como ocurre con un simple vector o una tabla de dos dimensiones.
+# 📚 Tipos de arreglos
 
-## Reflexión crítica 
+## 1️⃣ Arreglo unidimensional (Vector)
 
-Como reflexión crítica, considero que estos dos temas —modularidad y arreglos— están estrechamente relacionados y se complementan constantemente en la programación real, ya que es muy común que los módulos reciban arreglos como parámetros. En esos casos, entender bien la diferencia entre paso por valor y por referencia se vuelve fundamental, pues enviar un arreglo completo por valor resultaría poco eficiente en términos de memoria. La experiencia de programar estos ejercicios en clase me permitió confirmar que la teoría por sí sola no es suficiente: es necesario escribir el código, ejecutarlo, cometer errores y corregirlos para realmente interiorizar cómo se comportan los parámetros y cómo se recorren los distintos tipos de arreglos. En definitiva, considero que la práctica constante fue la que marcó la diferencia entre simplemente memorizar los conceptos y llegar a comprenderlos de buena forma.
+Es el arreglo más sencillo.
 
+- 📌 Se organiza en una sola fila.
+- 📌 Utiliza un único índice.
+- 📌 Ideal para listas de nombres, edades o calificaciones.
+
+---
+
+## 2️⃣ Arreglo bidimensional (Matriz)
+
+Organiza los datos en **filas y columnas**.
+
+- 📌 Requiere dos índices.
+- 📌 Representa tablas, tableros o hojas de cálculo.
+
+---
+
+## 3️⃣ Arreglo tridimensional (Multidimensional)
+
+Es una extensión de las matrices.
+
+- 📌 Contiene tres o más dimensiones.
+- 📌 Puede imaginarse como varias matrices apiladas.
+- 📌 Se utiliza para representar información más compleja.
+
+---
+
+# ⚠️ Principales dificultades encontradas
+
+Durante el desarrollo de esta unidad encontré diversas dificultades.
+
+### 🔹 Modularidad
+
+La mayor dificultad fue comprender la diferencia entre el **paso por valor** y el **paso por referencia**. Al principio ambos parecían realizar la misma función, pero después de analizar varios ejemplos comprendí que la diferencia está en si se envía una **copia del dato** o su **dirección de memoria**.
+
+---
+
+### 🔹 Arreglos
+
+Con los arreglos unidimensionales no tuve mayores inconvenientes; sin embargo, las matrices y los arreglos multidimensionales resultaron más complejos.
+
+Las principales dificultades fueron:
+
+- 🔸 Utilizar correctamente los bucles anidados.
+- 🔸 Recorrer filas y columnas sin cometer errores.
+- 🔸 Visualizar mentalmente un arreglo de tres dimensiones como varias matrices superpuestas.
+
+Gracias a la práctica constante logré comprender mejor su funcionamiento.
+
+---
+
+# 💭 Reflexión crítica
+
+Considero que la **modularidad** y los **arreglos** son dos conceptos que trabajan de manera conjunta en prácticamente cualquier programa.
+
+Los módulos suelen recibir arreglos como parámetros, por lo que comprender el paso por valor y por referencia resulta indispensable para escribir programas eficientes.
+
+Más allá de la teoría, comprobé que la mejor forma de aprender fue **programando**, ejecutando los ejercicios, identificando errores y corrigiéndolos.
+
+> 🎯 En conclusión, la práctica constante fue el factor que me permitió transformar los conceptos teóricos en conocimientos realmente comprendidos y aplicables.
+
+---
+
+<div align="center">
+
+## 🌟 Conclusión
+
+> *"Un programa bien organizado no solo funciona mejor, sino que también es más fácil de comprender, mantener y mejorar."* 💻✨
+
+</div>
 <div align="center">
   
 #### [Clic aquí para regresar📂](SEMESTRE.md)
