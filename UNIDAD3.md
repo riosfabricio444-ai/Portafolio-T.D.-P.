@@ -33,7 +33,7 @@ En lugar de escribir todo el programa en un solo bloque, el problema se divide e
 
 # 🔄 Tipos de paso de parámetros
 
-## 📥 Paso por valor
+## Paso por valor
 
 Consiste en enviar **una copia** del valor de la variable a la función.
 
@@ -45,7 +45,7 @@ Consiste en enviar **una copia** del valor de la variable a la función.
 
 ---
 
-## 📤 Paso por referencia
+## Paso por referencia
 
 Consiste en enviar la **dirección de memoria** de la variable.
 
@@ -80,7 +80,7 @@ Cada elemento posee un **índice**, que generalmente comienza en **0**, permitie
 
 # 📚 Tipos de arreglos
 
-## 1️⃣ Arreglo unidimensional (Vector)
+## Arreglo unidimensional (Vector)
 
 Es el arreglo más sencillo.
 
@@ -90,7 +90,7 @@ Es el arreglo más sencillo.
 
 ---
 
-## 2️⃣ Arreglo bidimensional (Matriz)
+##  Arreglo bidimensional (Matriz)
 
 Organiza los datos en **filas y columnas**.
 
@@ -99,7 +99,7 @@ Organiza los datos en **filas y columnas**.
 
 ---
 
-## 3️⃣ Arreglo tridimensional (Multidimensional)
+##  Arreglo tridimensional (Multidimensional)
 
 Es una extensión de las matrices.
 
