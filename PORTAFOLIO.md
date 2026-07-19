@@ -2,7 +2,7 @@
 
 # PORTAFOLIO DIGITAL DE APRENDIZAJE - TEORÍA DE LA PROGRAMACIÓN
 
-<img width="896" height="357" alt="image" src="https://github.com/user-attachments/assets/72fc996a-1f57-43a9-a20c-40b501c1c756" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/3f3caadf-162b-4417-beeb-6c4c55cb6caa" />
 
 
 ## "Construyendo las bases de mi futuro como desarrollador. El inicio de un viaje a través de la lógica, el código y la resolución de problemas.”🌐🧑‍💻
