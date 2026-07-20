@@ -44,6 +44,42 @@ Consiste en enviar **una copia** del valor de la variable a la función.
 > 📌 **Resultado:** cualquier modificación realizada dentro de la función **NO afecta** al dato original.
 
 ---
+### Ejemplo:
+```c
+#include <stdio.h>
+
+// Recibe una copia de la energía actual y devuelve el valor tras correr
+int gastarEnergia(int energiaActual, int costo) {
+    energiaActual = energiaActual - costo;
+    return energiaActual; 
+}
+
+// Recibe una copia de la energía y la devuelve con el plus de la poción
+int usarPocion(int energiaActual) {
+    energiaActual = energiaActual + 25;
+    return energiaActual;
+}
+
+// Módulo para ver el estado actual en pantalla
+void mostrarEstado(int energiaFinal) {
+    printf("--- ESTADO DEL JUGADOR ---\n");
+    printf("Energía restante: %d%%\n", energiaFinal);
+    printf("--------------------------\n");
+}
+
+int main() {
+    int miEnergia = 80; 
+    int carrera = 30;   
+
+    // Como es paso por valor, tenemos que guardar el resultado de vuelta en 'miEnergia'
+    miEnergia = gastarEnergia(miEnergia, carrera); 
+    miEnergia = usarPocion(miEnergia);                 
+
+    mostrarEstado(miEnergia);
+
+    return 0;
+}
+```
 
 ## Paso por referencia
 
