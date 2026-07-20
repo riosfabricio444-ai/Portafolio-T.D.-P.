@@ -157,6 +157,10 @@ Es el arreglo más sencillo.
 - 📌 Ideal para listas de nombres, edades o calificaciones.
 
 ---
+### Ejemplo:
+```c
+
+```
 
 ##  Arreglo bidimensional (Matriz)
 
@@ -166,7 +170,10 @@ Organiza los datos en **filas y columnas**.
 - 📌 Representa tablas, tableros o hojas de cálculo.
 
 ---
+### Ejemplo:
+```c
 
+```
 ##  Arreglo tridimensional (Multidimensional)
 
 Es una extensión de las matrices.
@@ -176,6 +183,10 @@ Es una extensión de las matrices.
 - 📌 Se utiliza para representar información más compleja.
 
 ---
+### Ejemplo:
+```
+
+```c
 
 # ⚠️ Principales dificultades encontradas
 
