@@ -259,7 +259,6 @@ Es una extensión de las matrices.
 ```
 #include <stdio.h>
 
-// Módulo que revisa todo el cine para contar los asientos vendidos
 void revisarOcupacionCine(int cine[2][3][4]) {
     int totalCine = 0;
 
@@ -301,7 +300,6 @@ int main() {
         }
     };
 
-    // Mandamos el cubo completo al módulo para analizar la asistencia
     revisarOcupacionCine(mapaCine);
 
     return 0;
