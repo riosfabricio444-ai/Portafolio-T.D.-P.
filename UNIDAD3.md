@@ -159,7 +159,48 @@ Es el arreglo más sencillo.
 ---
 ### Ejemplo:
 ```c
+#include <stdio.h>
 
+// Módulo para analizar todas las notas del alumno
+void analizarNotas(float notas[6]) {
+    float suma = 0.0;
+    float maxima = notas[0];
+    float minima = notas[0];
+
+    for(int i = 0; i < 6; i++) {
+        suma = suma + notas[i]; // Sumamos para el promedio
+        
+        if(notas[i] > maxima) {
+            maxima = notas[i]; // Guardamos la más alta
+        }
+        if(notas[i] < minima) {
+            minima = notas[i]; // Guardamos la más baja
+        }
+    }
+
+    float promedio = suma / 6.0;
+
+    printf("--- REPORTE DEL SEMESTRE ---\n");
+    printf("Nota mas alta: %.1f\n", maxima);
+    printf("Nota mas baja: %.1f\n", minima);
+    printf("Promedio final: %.1f\n", promedio);
+    
+    if(promedio >= 7.0) {
+        printf("Estado: APROBADO\n");
+    } else {
+        printf("Estado: REPROBADO\n");
+    }
+}
+
+int main() {
+    // Una sola lista con las 6 notas del estudiante
+    float misNotas[6] = {8.5, 9.0, 6.5, 7.0, 10.0, 5.5};
+
+    // Llamamos al módulo enviando el arreglo completo
+    analizarNotas(misNotas);
+
+    return 0;
+}
 ```
 
 ##  Arreglo bidimensional (Matriz)
@@ -172,7 +213,38 @@ Organiza los datos en **filas y columnas**.
 ---
 ### Ejemplo:
 ```c
+#include <stdio.h>
 
+// Módulo que calcula el total recaudado por cada tipo de producto
+void calcularVentasPorProducto(double ventas[3][4]) {
+    printf("--- TOTAL DE VENTAS POR PRODUCTO ---\n");
+    
+    // El primer ciclo recorre cada producto (filas)
+    for(int producto = 0; producto < 3; producto++) {
+        double totalProducto = 0.0;
+        
+        // El segundo ciclo recorre los días de la expo (columnas)
+        for(int dia = 0; dia < 4; dia++) {
+            totalProducto = totalProducto + ventas[producto][dia];
+        }
+        
+        printf("Producto #%d - Recaudado total: $%.2f\n", producto + 1, totalProducto);
+    }
+}
+
+int main() {
+    // Matriz de 3 productos x 4 dias de ventas
+    double matrizVentas[3][4] = {
+        {120.00, 150.50, 90.00, 200.00},  // Producto 1 (Audífonos)
+        {450.00, 300.00, 520.00, 600.00},  // Producto 2 (Teclados)
+        {80.25,  95.00,  110.00, 85.50}    // Producto 3 (Mousepads)
+    };
+
+    // Enviamos la tabla completa al módulo para que haga las cuentas
+    calcularVentasPorProducto(matrizVentas);
+
+    return 0;
+}
 ```
 ##  Arreglo tridimensional (Multidimensional)
 
@@ -185,7 +257,55 @@ Es una extensión de las matrices.
 ---
 ### Ejemplo:
 ```
+#include <stdio.h>
 
+// Módulo que revisa todo el cine para contar los asientos vendidos
+void revisarOcupacionCine(int cine[2][3][4]) {
+    int totalCine = 0;
+
+    // Recorremos las salas (profundidad)
+    for(int sala = 0; sala < 2; sala++) {
+        int ocupadosEnSala = 0;
+
+        // Recorremos las filas de esa sala
+        for(int fila = 0; fila < 3; fila++) {
+            // Recorremos las columnas de esa fila
+            for(int columna = 0; columna < 4; columna++) {
+                
+                // Si encontramos un 1, es un boleto vendido
+                if(cine[sala][fila][columna] == 1) {
+                    ocupadosEnSala++;
+                    totalCine++;
+                }
+            }
+        }
+        printf("Sala %d: %d asientos ocupados.\n", sala + 1, ocupadosEnSala);
+    }
+
+    printf("----------------------------------\n");
+    printf("Total de boletos vendidos en el cine: %d\n", totalCine);
+}
+
+int main() {
+    // Cubo de datos de [2 salas] x [3 filas] x [4 columnas]
+    int mapaCine[2][3][4] = {
+        { // SALA 1
+            {1, 0, 1, 0}, // Fila 0
+            {0, 1, 1, 1}, // Fila 1
+            {0, 0, 0, 1}  // Fila 2
+        },
+        { // SALA 2
+            {0, 0, 1, 1}, // Fila 0
+            {1, 1, 0, 0}, // Fila 1
+            {1, 0, 1, 0}  // Fila 2
+        }
+    };
+
+    // Mandamos el cubo completo al módulo para analizar la asistencia
+    revisarOcupacionCine(mapaCine);
+
+    return 0;
+}
 ```c
 
 # ⚠️ Principales dificultades encontradas
