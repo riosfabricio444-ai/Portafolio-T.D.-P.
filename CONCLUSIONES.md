@@ -16,6 +16,10 @@
 
 - Al aplicar el proceso completo (desde el planteamiento hasta la prueba de escritorio) en ejercicios condicionales y repetitivos combinados, logré desarrollar una lógica más avanzada y asegurar que los flujos de control del algoritmo no tuvieran bucles infinitos o errores lógicos antes de codificar.
 
+- Aprender a manejar variables por valor y por referencia es clave para saber cuándo queremos modificar los datos originales directamente en memoria usando punteros o cuándo nos conviene más trabajar con copias seguras mediante funciones con return.
+
+- El uso de arreglos (ya sean listas, matrices o cubos) junto con la modularización hace que el código sea mucho más ordenado y fácil de entender, permitiéndonos resolver y simular problemas reales del día a día sin enredarnos en el intento.
+
  <div align="center">
 	 
 #### [Clic aquí para regresar📂](SEMESTRE.md)
