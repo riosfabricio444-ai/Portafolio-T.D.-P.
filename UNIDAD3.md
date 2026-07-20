@@ -304,7 +304,7 @@ int main() {
 
     return 0;
 }
-```c
+```
 
 # ⚠️ Principales dificultades encontradas
 
