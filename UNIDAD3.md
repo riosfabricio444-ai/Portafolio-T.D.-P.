@@ -56,7 +56,39 @@ Consiste en enviar la **dirección de memoria** de la variable.
 > 📌 **Resultado:** cualquier modificación realizada dentro de la función **SÍ afecta** a la variable original.
 
 ---
+### Ejemplo:
 
+```c
+#include <stdio.h>
+
+// Módulo que aplica el descuento directamente usando un puntero (*)
+void aplicarDescuento(double *precioTotal, double rebaja) {
+    *precioTotal = *precioTotal - rebaja; 
+}
+
+void aplicarIVA(double *precioTotal) {
+    *precioTotal = *precioTotal * 1.15;
+}
+
+void mostrarTicket(double precioFinal) {
+    printf("--- TICKET DE COMPRA ---\n");
+    printf("Total a pagar: $%.2f\n", precioFinal);
+    printf("------------------------\n");
+}
+
+int main() {
+    double miCompra = 100.0; 
+    double descuento = 20.0;
+
+    aplicarDescuento(&miCompra, descuento); 
+    aplicarIVA(&miCompra);                 
+
+    // Mostramos el resultado final ya modificado
+    mostrarTicket(miCompra);
+
+    return 0;
+}
+```
 # 📊 Arreglos
 
 Un **arreglo (array)** es una estructura de datos que permite almacenar múltiples valores del mismo tipo bajo un solo nombre de variable.
