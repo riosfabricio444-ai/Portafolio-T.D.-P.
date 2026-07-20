@@ -45,6 +45,9 @@ Consiste en enviar **una copia** del valor de la variable a la función.
 
 ---
 ### Ejemplo:
+Estás jugando un videojuego donde tu personaje empieza una zona con un 80% de energía. Durante el trayecto, mantienes presionado el botón de correr, lo cual te consume 30 puntos de energía. Un poco más adelante, encuentras una poción que te recupera 25 puntos.
+Se requiere un programa que simule el estado de tu personaje: debe tomar los 80 puntos iniciales, restarle la energía gastada por correr, sumarle lo recuperado por la poción y mostrar en pantalla cuánta energía te queda al final de la partida.
+
 ```c
 #include <stdio.h>
 
@@ -93,6 +96,8 @@ Consiste en enviar la **dirección de memoria** de la variable.
 
 ---
 ### Ejemplo:
+Vas a una tienda a comprar una prenda que cuesta $100. Tienes un cupón promocional de $20 de descuento y, además, a la compra se le debe aplicar el impuesto del IVA del 15%.
+La cajera primero te aplica el descuento de $20 a tus $100 iniciales (dejando la cuenta en $80) y, sobre ese subtotal, te suma el 15% de IVA. Se requiere un programa que simule este cobro actualizando el monto directo en la cuenta para imprimir el ticket con el total final a pagar.
 
 ```c
 #include <stdio.h>
