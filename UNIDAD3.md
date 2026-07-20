@@ -158,6 +158,8 @@ Es el arreglo más sencillo.
 
 ---
 ### Ejemplo:
+Este ejemplo simula el registro de las calificaciones de un alumno durante un semestre (6 materias). El código recorre el arreglo para buscar la nota más baja, la más alta y calcular el promedio final.
+
 ```c
 #include <stdio.h>
 
@@ -212,6 +214,8 @@ Organiza los datos en **filas y columnas**.
 
 ---
 ### Ejemplo:
+Este caso simula una tienda pequeña que vende 3 productos distintos durante los 4 días de una expo de tecnología. La matriz tiene 3 filas (productos) y 4 columnas (días). El código calcula cuánto dinero se recaudó en total por cada producto individual.
+
 ```c
 #include <stdio.h>
 
@@ -256,6 +260,8 @@ Es una extensión de las matrices.
 
 ---
 ### Ejemplo:
+Para las tres dimensiones, imagina un cine pequeño que tiene 2 salas. Cada sala tiene 3 filas de asientos, y cada fila tiene 4 columnas (butacas). El número 0 significa que el asiento está libre, y el 1 que está ocupado. El código cuenta cuántas entradas se vendieron en total en todo el cine y cuántas por sala.
+
 ```
 #include <stdio.h>
 
