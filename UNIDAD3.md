@@ -214,6 +214,8 @@ int main() {
     return 0;
 }
 ```
+<img width="393" height="152" alt="unidimensional" src="https://github.com/user-attachments/assets/24bd9355-fc71-4860-b1dc-8ee308d72456" />
+
 
 ##  Arreglo bidimensional (Matriz)
 
@@ -260,6 +262,8 @@ int main() {
     return 0;
 }
 ```
+<img width="405" height="124" alt="bidimensional" src="https://github.com/user-attachments/assets/003ea61e-fe7a-4e2e-ad59-a2f683146ab9" />
+
 ##  Arreglo tridimensional (Multidimensional)
 
 Es una extensión de las matrices.
@@ -321,6 +325,8 @@ int main() {
     return 0;
 }
 ```
+<img width="438" height="129" alt="tridimensional" src="https://github.com/user-attachments/assets/1d775f5b-daed-4757-989b-6e6f37ecd017" />
+
 
 # ⚠️ Principales dificultades encontradas
 
