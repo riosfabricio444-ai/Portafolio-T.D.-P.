@@ -84,6 +84,8 @@ int main() {
 }
 ```
 
+<img width="424" height="112" alt="valor" src="https://github.com/user-attachments/assets/8f504f74-49ad-489b-b3d8-cf8fba28ed95" />
+
 ## Paso por referencia
 
 Consiste en enviar la **dirección de memoria** de la variable.
@@ -130,6 +132,9 @@ int main() {
     return 0;
 }
 ```
+<img width="403" height="116" alt="referencia" src="https://github.com/user-attachments/assets/ed613300-4db1-466f-8508-ddfd5a05f3d2" />
+
+
 # 📊 Arreglos
 
 Un **arreglo (array)** es una estructura de datos que permite almacenar múltiples valores del mismo tipo bajo un solo nombre de variable.
